@@ -57,3 +57,16 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.margin-top-4{
+    margin-top:20px;
+}
+
+.margin-top-5{
+    margin-top:50px;
+}
+
+
+.text-center{
+    text-align: center;
+}
