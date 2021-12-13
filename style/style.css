@@ -1,0 +1,63 @@
+
+/* Buttons */
+
+.btn{
+    border:0;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+
+.btn-rounded{
+    border-radius: 20px;
+    padding:8px;
+}
+
+.btn-yellow{
+    background-color: #f1c40f;
+    color:white;
+}
+
+.btn:hover{
+    border:5;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 0px 10px -3px #000000; 
+    box-shadow: 0px 0px 10px -3px #000000;
+}
+
+
+/* NAVIGATION */
+
+.nav{
+    height: 110px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.menu-conteiner{
+    max-width: 1140px;
+    width:100%;
+   
+}
+
+.nav-menu-list{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float:left;
+  margin-top:3px;
+  margin-right: 20px;
+}
+
+.nav-menu-list li{
+    float: left;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+
+.nav-menu-list li:hover{
+    color:#f1c40f;
+}
