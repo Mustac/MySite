@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style-shared.css">
+    <link rel="stylesheet" href="style/mobile-style.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/webshop.css">
     <link rel="stylesheet" href="style/bootstrap-grid.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +17,16 @@
     <title>Document</title>
 </head>
 <body>
-    <section id="navigation ">
+
+    <!-- NAVIGATION -->
+
+    <section id="top-navigation">
             <nav class="nav d-flex align-items-center justify-content-center">
-                <div class="container d-flex justify-content-lg-between align-items-center">
+                <div class="container d-flex justify-content-between align-items-center">
                     <h2 class="logo">Treehouse</h2>
+                    <!-- DESKTOP MENU -->
                     <div>
-                        
-                        <ul class="nav-menu-list">
+                        <ul class="nav-menu-list d-none d-lg-inline-block">
                             <li>HOME</li>
                             <li>SHOP</li>
                             <li>ABOUT US</li>
@@ -28,25 +34,55 @@
                         </ul>
                        
                         <div class="float-left">
-                            <i class="fas fa-shopping-cart margin-x-2"></i>
-                            <i class="fas fa-user-alt"></i>
+                            <i class="fas fa-shopping-cart margin-x-2 "></i>
+                            <i class="fas fa-user-alt margin-x-2 "></i>
+                            <i id="menu-open-button" class="fas fa-bars d-lg-none d-inline-block margin-left-2"></i>
                         </div>
 
                     </div>
                 </div>
-            </nav>
+            </nav> 
+
+            <!-- MOBILE MENU -->
+            <div id="mobile-menu" class="side-nav d-lg-none">
+                <div class="container-fluid" style="height: 100%;">
+                    <div class="row justify-content-center align-content-center" style="height: 100%;">
+                        <div class="text-center">
+                            <h1>HOME</h1>
+                            <br>
+                            <br>
+                            <h1>SHOP</h1>
+                            <br>
+                            <br>
+                            <h1>ABOUT US</h1>
+                            <br>
+                            <br>
+                            <h1>CONTACT</h1>
+                            </div>
+                    </div>
+                </div>
+    
+                <div id="close-nav-button" class="close-nav-box">
+                    <i id="menu-close-button" class="far fa-times-circle fa-3x"></i>
+                    
+                </div>
+            </div>
     </section>
 
+       
+    
 
-    <section id="hero">
+ <!-- HERO -->
+    <section style="position: relative; z-index: -5 !important; margin-top: 60px;" id="hero">
         <div class="hero">
 
             </div>
     </section>
 
+    <!-- WEB SHOP -->
     <section class="margin-top-4" id="showcase-icons" >
         <h1 class="text-center" style="margin-bottom: 20px;">WEB SHOP</h1>
-        <div class="container d-flex justify-content-center">
+        <div class="icon-shop">
             <div class="shop-icon">
                 <img src="images/icons/desk-lamp.png" >
             </div>
@@ -64,6 +100,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="margin-top-5" id="shop">
         <div class="container d-flex justify-content-lg-between">
@@ -85,7 +122,19 @@
         </div>
     </section>
 
+    <div id="icon-shop">
+        <div style="background-color:#009900;">1</div>
+        <div style="background-color:#00cc99;">2</div>
+        <div style="background-color:#0066ff;">3</div>
+        <div style="background-color:#66ffff;">4</div>
+        <div style="background-color:#660066;">5</div>
+        <div style="background-color:#663300;">6</div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <button class="btn btn-rounded btn-yellow btn-hover">SHOW ME</button>
+    <script src="script/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    
+    
+        body::-webkit-scrollbar{
+            display: none;
+        }
+
+    body{
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    }
+
+    i{
+        font-size: larger;
+    }
+
+    .absolute-center{
+        position: absolute;
+        top:0;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+ 
+
+ }
+
+

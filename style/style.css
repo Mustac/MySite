@@ -25,41 +25,6 @@
 }
 
 
-/* NAVIGATION */
-
-.nav{
-    height: 110px;
-    background-color: white;
-    font-weight: 600;
-}
-
-.container{
-    max-width: 1140px;
-    width:100%;
-}
-
-.nav-menu-list{
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  float:left;
-  margin-top:3px;
-  margin-right: 20px;
-}
-
-.nav-menu-list li{
-    float: left;
-    margin-left: 40px;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.25s all;
-}
-
-.nav-menu-list li:hover{
-    color:#f1c40f;
-}
 
 /* Hero */
 
@@ -72,31 +37,7 @@
 }
 
 
-/* shop icons */
 
-.shop-icon{
-    height: 80px;
-    width: 80px;
-    border:2px gray solid;
-    border-radius: 10px;
-    padding:5px;
-    margin-right: 15px;
-    margin-left: 15px;
-    cursor: pointer;
-    transition: 0.1s all;
-}
-
-.shop-icon:hover{
-    transform:scale(1.1);
-    border:2px rgb(94, 94, 94) solid;
-    -webkit-box-shadow: 0px 0px 10px -3px #000000; 
-    box-shadow: 0px 0px 10px -3px #000000;
-}
-
-.shop-icon img{
-    max-width: 100%;
-    max-height: 100%;
-}
 
 /* product-card */
 
@@ -122,4 +63,17 @@
     content:"";
     background-color: white;
     opacity: 0.5;
+}
+
+
+
+
+/*.icon-shop div{
+    width: 50px;
+  height: 50px;
+}*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
